@@ -2,7 +2,6 @@
 var userInput = document.getElementById("userInput");
 var addButton = document.getElementById("addButtonId")
 var tasks = document.getElementById('taskList')
-console.log(userInput.value, addButton, tasks);
 
 function getUserInputLength() {
     return userInput.value.length;
