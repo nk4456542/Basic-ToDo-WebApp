@@ -21,7 +21,7 @@ function createListItem() {
     userInput.value = "";
 
     var delButton = document.createElement("button");
-    delButton.innerHTML = '<img src="./delete.svg">';
+    delButton.innerHTML = '<img src="./images/delete.svg" alt="Delete Icon">';
     delButton.classList.add('deleteButton');
     delButton.addEventListener('click', delItem);
     li.append(delButton);
