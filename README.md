@@ -14,3 +14,5 @@ Codepen Link : [ToDo App](https://codepen.io/ZaheerAbbas1/pen/OJXapvz)
 
 1. Clone the Repo
 2. Open the html file in the browser
+
+I would rather suggest you to give a look at the codepen link above.
