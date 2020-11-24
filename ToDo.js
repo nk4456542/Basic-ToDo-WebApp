@@ -40,7 +40,7 @@ function createListItem() {
 
     function delItem() {
         li.remove();
-        if (getListCount() == 0) {
+        if (getListCount() === 0) {
             var emptyList = document.querySelector('h2');
             emptyList.style.display = "block";
         }
@@ -54,7 +54,7 @@ function addClick() {
 }
 
 function addKey(event) {
-    if (getUserInputLength() > 0 && event.keyCode == 13) {
+    if (getUserInputLength() > 0 && event.keyCode === 13) {
         createListItem();
     }
 }
